@@ -1,0 +1,113 @@
+- Đậu Văn Nam (2A202600033) – AI Intern / Product Explorer
+---
+
+## 1. Idea reframed
+Original idea:
+> Xây dựng một hệ thống giúp người dùng kiểm tra xem một cơ hội đầu tư/tài chính có đáng tin hay không.
+
+Reframed as a product opportunity:
+> Người dùng cá nhân hiện đang phải tự đánh giá độ uy tín của các cơ hội tài chính (crypto, chứng khoán, khóa học đầu tư, KOLs...) trong một môi trường đầy nhiễu loạn thông tin.
+> Gap nằm ở chỗ: không có một “layer trust” trung lập giúp họ verify trước khi xuống tiền.
+> Founding belief: nếu có thể tổng hợp tín hiệu từ nhiều nguồn (lịch sử, hành vi, community signal, pattern lừa đảo), ta có thể xây dựng một hệ thống “pre-investment intelligence”.
+> Đây không chỉ là tool check scam, mà là decision-support layer cho retail investors.
+
+---
+
+## 2. Customer / Segment Card
+- **Segment name:** Retail investors (F0–F2)
+- **Operational context:** Lướt Facebook, Telegram, TikTok, YouTube để tìm cơ hội đầu tư
+- **Recurring workflow:** Thấy deal → đọc thông tin → hỏi bạn bè → tự phán đoán → quyết định xuống tiền
+- **Pain moment:** Không chắc deal đó legit hay scam nhưng vẫn phải quyết nhanh (FOMO)
+- **Why now:** Bùng nổ KOL tài chính, crypto, MMO → thông tin nhiễu cao
+- **Access path:** Chrome extension / Telegram bot / web check link
+
+One-sentence description:
+> Một nhà đầu tư cá nhân thường xuyên gặp các cơ hội tài chính online nhưng thiếu công cụ đáng tin để verify trước khi quyết định.
+
+---
+
+## 3. Need Map (2–3 needs)
+
+### Need #1 (priority)
+- **Statement (JTBD):** When I see an investment opportunity online, I want to quickly assess its credibility, so I can avoid scams and bad decisions.
+- **Current workaround:** Google thủ công, hỏi bạn bè, check comment
+- **Pain signal:** Mất tiền, hoặc bỏ lỡ cơ hội vì không chắc chắn
+- **Evidence / proxy evidence:** Số lượng group “bóc phốt lừa đảo”, post cảnh báo scam tăng mạnh
+- **Why underserved:** Thông tin phân tán, không có hệ thống tổng hợp và scoring đáng tin
+
+### Need #2
+- **Statement (JTBD):** When I follow a KOL or project, I want to understand their track record, so I can decide whether to trust them.
+- **Current workaround:** Xem lịch sử post, cảm tính
+- **Pain signal:** KOL “quay xe”, shill dự án rác
+- **Evidence / proxy evidence:** Nhiều drama KOL tài chính
+- **Why underserved:** Không có structured data về hành vi quá khứ
+
+### Need #3 (optional)
+- **Statement (JTBD):** When evaluating multiple opportunities, I want a standardized way to compare them, so I can choose the best one.
+- **Current workaround:** So sánh thủ công
+- **Pain signal:** Quyết định dựa trên cảm xúc
+- **Evidence / proxy evidence:** FOMO-driven decisions phổ biến
+- **Why underserved:** Không có scoring framework phổ biến cho retail
+
+---
+
+## 4. Strategy Statement
+For retail investors
+who struggle with evaluating trust in financial opportunities,
+our product helps them make safer investment decisions
+through an AI-powered trust scoring and signal aggregation system,
+unlike manual research or community rumors,
+because we can leverage data aggregation + pattern recognition + user feedback loop.
+
+---
+
+## 5. Moat Hypothesis
+**Moat mechanism:** Data + trust-learning flywheel
+
+If we deploy 1000+ times in retail investment context, the following improve:
+1. Accuracy of scam detection patterns
+2. Quality of trust scoring model
+3. Network effect from user feedback (report scam, validate legit)
+
+Why competitors cannot easily replicate this:
+> Dữ liệu hành vi và feedback user tích lũy theo thời gian là proprietary; càng nhiều user → model càng tốt → moat càng sâu.
+
+---
+
+## 6. Initial TAM / SAM / SOM view
+
+| Layer | Estimate | Key assumptions | Confidence |
+|---|---|---|---|
+| TAM | $500M–$1B/year | Global retail investors willing to pay for tools | low |
+| SAM | $50M–$150M/year | SEA + VN market, fintech adoption growing | low |
+| SOM | $1M–$5M/year | Acquire early adopters via community & extension | low |
+
+**Top 3 unknowns requiring further research:**
+1. Người dùng có willing to pay không hay chỉ dùng free?
+2. Accuracy cần đạt bao nhiêu để tạo trust?
+3. Legal risk khi “đánh giá” một entity là scam?
+
+**Judgment:**
+- [x] Worth pursuing but not now (need to validate willingness to pay & accuracy first)
+
+---
+
+## 7. Positioning Note (2 sentences)
+
+**What we are:**
+> A trust intelligence layer that helps retail investors evaluate financial opportunities before investing.
+
+**What we are not / not yet:**
+> Not a trading platform or financial advisor, and not a guarantee against loss.
+
+---
+
+## 8. Self-assessment before Day 17
+
+Trong 6 mắt xích (Idea, Customer, Need, Strategy, Moat, Market Size), mắt xích yếu nhất:
+> Market Size (TAM/SAM/SOM còn rất mơ hồ, chưa có data validate)
+
+Open questions chúng tôi muốn khám phá thêm ở Day 17:
+1. User có thực sự trả tiền cho “trust” không?
+2. Có thể đạt PMF qua Chrome extension hay phải đi qua community trước?
+3. Làm sao tránh legal risk khi classify scam?
